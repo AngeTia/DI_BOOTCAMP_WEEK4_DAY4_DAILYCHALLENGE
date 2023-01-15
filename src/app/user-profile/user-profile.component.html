@@ -1,0 +1,6 @@
+<h1>Profil User</h1>
+
+<p>name: {{ user.name }}</p>
+<p>prenom: {{ user.prenom }}</p>
+<p>fullname: {{ user.getFullName() }}</p>
+<img [src]="user.profilePictureUrl" alt="my image">
